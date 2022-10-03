@@ -11,6 +11,4 @@ Uma calculadora com operações básicas de multiplicar, subtrair, dividir e som
 ### Clique na imagem para acessar:
   
   [![Calculadora](https://user-images.githubusercontent.com/61170444/193703004-87da1331-c195-45a1-9be5-59841c46494c.PNG)
-](https://caioassis-dev.github.io/CalculadoraDeGorjeta/)
-
-
+](https://caioassis-dev.github.io/Calculadora/)
