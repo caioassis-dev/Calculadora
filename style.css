@@ -2,21 +2,52 @@
   padding: 20px;
   border: 1px solid #aaa;
   width: 500px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
 #corpoTeclas{
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 10px;
+  font-size: 22px;
+
 }
 
 #visor{
   padding: 10px;
   border: 1px solid #aaa;
   margin-bottom: 20px;
+  border-radius: 10px;
+  height: 30px;
+  background-color: rgb(170, 167, 167);
+  color: black;
+  font-size: 28px;
+  display: flex;
 }
 
 .tecla{
   padding: 5px;
   border: 1px solid #aaa;
+  border-radius: 15px;
+  height: 25px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#tecla1, #tecla2, #tecla3, #tecla4, #tecla8, #tecla12, #tecla16, #tecla19, #tecla20{
+  padding: 5px;
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  height: 25px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: orange;
+  border-color: black;
+  color: black;
 }
