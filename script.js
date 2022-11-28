@@ -13,6 +13,7 @@ for (let i = 0; i < teclas.length; i++) {
     if (!isNaN(teclas[i].innerHTML)) {
       if (flag == true) {
         visor.innerHTML = teclas[i].innerHTML
+        flag = false
         // Esse ELSE está fazendo a funcao de concatenar os numeros exemplo 333 .... 555 etc...
       } else {
         visor.innerHTML += teclas[i].innerHTML
@@ -80,6 +81,4 @@ function calcular() {
   console.log(total)
   visor.innerHTML = total
 }
-
-
 
